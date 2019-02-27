@@ -121,6 +121,9 @@
   <data name="Html" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>templates\html.xslt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="WikiConf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>templates\wikiconf.xslt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="WikiPlex" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>templates\wikiplex.xslt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>

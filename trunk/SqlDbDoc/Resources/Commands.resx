@@ -124,10 +124,19 @@
   <data name="GetDatabase" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>commands\getdatabase.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="GetDefinition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>commands\getdefinition.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="GetObjects" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>commands\getobjects.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="GetParameters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>commands\getparameters.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="GetSchemas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>commands\getschemas.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="GetTrigger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>commands\gettrigger.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

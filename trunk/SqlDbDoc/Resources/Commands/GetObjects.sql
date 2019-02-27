@@ -13,6 +13,7 @@ FROM
 WHERE 
 	is_ms_shipped = 0 
 	AND parent_object_id = @parent_object_id
+ORDER BY S.name, O.type_desc, O.name
 
 	
 

@@ -83,17 +83,17 @@
                         <xsl:for-each select="/database/object[@type='USER_TABLE']">
                             <xsl:sort select="@name"/>
                             <li class="table">
-                                <a href="#{@id}">
+                                <!--<a href="#{@id}">-->
                                     <xsl:value-of select="concat(@schema, '.', @name)"/>
-                                </a>
+                                <!--</a>-->
                             </li>
                         </xsl:for-each>
                         <xsl:for-each select="/database/object[@type='VIEW']">
                             <xsl:sort select="@name"/>
                             <li class="view">
-                                <a href="#{@id}">
+                                <!--<a href="#{@id}">-->
                                     <xsl:value-of select="concat(@schema, '.', @name)"/>
-                                </a>
+                                <!--</a>-->
                             </li>
                         </xsl:for-each>
 
@@ -113,17 +113,17 @@
                                     <xsl:for-each select="/database/object[@type='USER_TABLE' and @schema=$SchemaName]">
                                         <xsl:sort select="@name"/>
                                         <li class="table">
-                                            <a href="#{@id}">
+                                            <!--<a href="#{@id}">-->
                                                 <xsl:value-of select="@name"/>
-                                            </a>
+                                            <!--</a>-->
                                         </li>
                                     </xsl:for-each>
                                     <xsl:for-each select="/database/object[@type='VIEW' and @schema=$SchemaName]">
                                         <xsl:sort select="@name"/>
                                         <li class="view">
-                                            <a href="#{@id}">
+                                            <!--<a href="#{@id}">-->
                                                 <xsl:value-of select="@name"/>
-                                            </a>
+                                            <!--</a>-->
                                         </li>
                                     </xsl:for-each>
 
@@ -139,7 +139,7 @@
     <xsl:template name="SingleDbTableOrView">
         <div class="table">
             <h2 id="{@id}">
-                <a href="#toc" class="tocref">&#8679;</a>
+                <!--<a href="#toc" class="tocref">&#8679;</a>-->
                 <xsl:choose>
                     <xsl:when test="@type='USER_TABLE'">Table </xsl:when>
                     <xsl:when test="@type='VIEW'">View </xsl:when>
@@ -216,9 +216,9 @@
                                     <xsl:variable name="FK" select="foreignKey" />
                                     <span class="flag" title="{//object[@id=$FK/@refId]/@name}">
                                         <xsl:text>&#8680; </xsl:text>
-                                        <a href="#{$FK/@tableId}">
+                                        <!--<a href="#{$FK/@tableId}">-->
                                             <xsl:value-of select="concat(//object[@id=$FK/@tableId]/@schema, '.', //object[@id=$FK/@tableId]/@name)"/>
-                                        </a>
+                                        <!--</a>-->
                                         <xsl:value-of select="concat('.', foreignKey/@column)"/>
                                     </span>
                                 </xsl:if>

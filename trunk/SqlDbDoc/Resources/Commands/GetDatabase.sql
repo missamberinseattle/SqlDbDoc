@@ -5,3 +5,4 @@ FROM
 	sys.databases
 WHERE 
 	database_id = DB_ID()
+ORDER BY name

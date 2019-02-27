@@ -65,9 +65,15 @@
     <Content Include="appicon.ico" />
     <Content Include="Resources\Commands\GetColumns.sql" />
     <Content Include="Resources\Commands\GetDatabase.sql" />
+    <Content Include="Resources\Commands\GetDefinition.sql" />
     <Content Include="Resources\Commands\GetObjects.sql" />
     <Content Include="Resources\Commands\GetSchemas.sql" />
+    <Content Include="Resources\Commands\GetParameters.sql" />
+    <Content Include="Resources\Commands\GetTrigger.sql" />
     <Content Include="Resources\Templates\Html.xslt" />
+    <Content Include="Resources\Templates\WikiConf.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Resources\Templates\WikiPlex.xslt" />
   </ItemGroup>
   <ItemGroup>
